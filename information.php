@@ -13,7 +13,7 @@ if (mysqli_connect_errno()) {
   exit();
 }
 
-$sqlone = "UPDATE shop SET name = "bob" WHERE name = 'demo'";
+$sqlone = "UPDATE shop SET name = 'bob' WHERE name = 'demo'";
 mysqli_query($con, $sqlone);
 
 
