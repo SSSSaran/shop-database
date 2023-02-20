@@ -1,9 +1,9 @@
 <?php 
 
 // Connect to the database is stored within $con
-// localhost = serer, username = root, password = "Prabjot!23", DBname = "shop"
+// localhost = serer, username = root, password = "Prabjot", DBname = "shop"
 
-$con=mysqli_connect("localhost","root","Prabjot!23","shop");
+$con=mysqli_connect("localhost","root","Prabjot","shop");
 
 
 // Checking connection
@@ -13,7 +13,7 @@ if (mysqli_connect_errno()) {
   exit();
 }
 
-$sqlone = "UPDATE shop SET name = 'bob' WHERE name = 'demo'";
+$sqlone = "UPDATE shop SET name = 'bobert' WHERE name = 'bob'";
 mysqli_query($con, $sqlone);
 
 
