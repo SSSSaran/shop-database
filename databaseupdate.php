@@ -2,7 +2,7 @@
 
 $con=mysqli_connect("localhost","root","Prabjot","shop");
 
-$sql = "UPDATE `shop` SET `Name`='demo2' WHERE id = '3'";
+$sql = "UPDATE `shop` SET `id`='2' WHERE name = 'bob'";
 
 mysqli_query($con,$sql); 
 
